@@ -32,7 +32,7 @@ for b in tag_b:
     a = b.find_element(By.XPATH, "..")
     lista_a.append(a)
 
-url = re.search(r"'/consultapublica/[^']+\'", lista_a[0].get_attribute("onclick"))
+url = re.search(r"'/consultapublica/[^']+\'", lista_a[3].get_attribute("onclick"))
 
 if url:
     url = url.group(0).strip("'")
@@ -75,21 +75,3 @@ with open(nome_do_arquivo, "w") as arquivo_json:
 
 
 
-
-
-
-# for a in lista_a:
-#     print(a.get_attribute("onclick"))
-# print(len(detalhes))
-
-# print('erro ao consultar')
-# driver.close()
-
-
-    
-
-
-
-# response = requests.post(URL, data=data)
-
-# print(response.text)
