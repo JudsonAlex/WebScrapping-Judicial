@@ -20,7 +20,7 @@ O arquivo `requeriments.txt` contém as bibliotecas necessárias.
 
 Para usar o script:
 
-1. Certifique-se de ter o WebDriver do Mozilla Firefox. Você pode baixá-lo em [GeckoDriver](https://github.com/mozilla/geckodriver).
+1. Certifique-se de ter o WebDriver do Mozilla Firefox. Caso use outro navegador você pode baixá-lo em [Selenium Client Driver](https://www.selenium.dev/selenium/docs/api/py/).
 
 2. Execute o script.
 
